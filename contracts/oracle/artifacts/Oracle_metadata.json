@@ -1,0 +1,168 @@
+{
+	"compiler": {
+		"version": "0.6.6+commit.6c089d02"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "factory_",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "CYCLE",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "tokenIn",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amountIn",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "tokenOut",
+						"type": "address"
+					}
+				],
+				"name": "consult",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "amountOut",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "factory",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "pairObservations",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "timestamp",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "price0Cumulative",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "price1Cumulative",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "tokenA",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "tokenB",
+						"type": "address"
+					}
+				],
+				"name": "update",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/oracle/Oracle.sol": "Oracle"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/interface/IMdexFactory.sol": {
+			"keccak256": "0x130679d754fd2df88056b70cb6672933d648589206248b5b130fba6a1869cc63",
+			"urls": [
+				"bzz-raw://ccd26701410107c3155e4c6d76cca93acd49474881a772aff150bc0563c08cb7",
+				"dweb:/ipfs/QmexXfPzupoAx9SDTdpcpACEMCajMtd4DxhqfkWdme2kKR"
+			]
+		},
+		"contracts/interface/IMdexPair.sol": {
+			"keccak256": "0x08bde13b73ac8d609e4ff62c765fb140f60beeebb4bef820b34785d336b9f1b4",
+			"urls": [
+				"bzz-raw://6c53b9ddfca7d2876118ee9f999db6970131b9756733820ac0c28a1e1676310b",
+				"dweb:/ipfs/QmNiZCLLEjesTLfvbUNhUdkPPTz8YAHoggimGq93MdhXy8"
+			]
+		},
+		"contracts/oracle/Oracle.sol": {
+			"keccak256": "0x495fc4a3459ea3ecf2039bf9414e412a62faa506ee970b3bba6da5eab1f096c6",
+			"urls": [
+				"bzz-raw://5d8b3ba4f814fc07b69a2c0df280d86f47774185e00ea315337126fb3d0cb525",
+				"dweb:/ipfs/QmXaShG2eGisC13TNRsYA1i2tSWCjnoegwp4xPeYCbLX9u"
+			]
+		}
+	},
+	"version": 1
+}

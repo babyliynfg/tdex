@@ -1,0 +1,82 @@
+{
+	"compiler": {
+		"version": "0.6.6+commit.6c089d02"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/heco/Router.sol": "TransferHelper"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@openzeppelin/contracts/access/Ownable.sol": {
+			"keccak256": "0x15e2d5bd4c28a88548074c54d220e8086f638a71ed07e6b3ba5a70066fcf458d",
+			"urls": [
+				"bzz-raw://90faf5851c02f9bd42c5bfb54d4f0421a2612f50ab80b2c4fa24fa3792071cc2",
+				"dweb:/ipfs/QmRGM4F2PcGVF85aTfaA9YBhCHHDqrMhRjyp6fGeBTtirb"
+			]
+		},
+		"@openzeppelin/contracts/utils/Context.sol": {
+			"keccak256": "0x8d3cb350f04ff49cfb10aef08d87f19dcbaecc8027b0bed12f3275cd12f38cf0",
+			"urls": [
+				"bzz-raw://ded47ec7c96750f9bd04bbbc84f659992d4ba901cb7b532a52cd468272cf378f",
+				"dweb:/ipfs/QmfBrGtQP7rZEqEg6Wz6jh2N2Kukpj1z5v3CGWmAqrzm96"
+			]
+		},
+		"contracts/heco/Router.sol": {
+			"keccak256": "0x72f417e292d737ea2cce63f5ee62fc1e4dc3e57cbf1990d95f3aeaaa9f699c8a",
+			"urls": [
+				"bzz-raw://c1f77170aac29dd1d6cbea905acf0d84e5f889fadc19c068b59e5d1ba214f0be",
+				"dweb:/ipfs/QmTTQ2z1C3hQT3qnGMqRDv9btDghVmcgrDiQfU2tfkuWfG"
+			]
+		},
+		"contracts/interface/IERC20.sol": {
+			"keccak256": "0xfbe1a3d3a7409eeb46afa7ea2edbc92c74abbb53cd78c9402187015289f41f07",
+			"urls": [
+				"bzz-raw://6f5aa4b47ccdf82a5d1135aded936f58ac03577f640f6c24ec904ba7bd6d233a",
+				"dweb:/ipfs/QmTQx9kxsVzYY8d4hXrkCkiNABiMZr6mgLJyAtP4CzhxZH"
+			]
+		},
+		"contracts/interface/IMdexFactory.sol": {
+			"keccak256": "0x130679d754fd2df88056b70cb6672933d648589206248b5b130fba6a1869cc63",
+			"urls": [
+				"bzz-raw://ccd26701410107c3155e4c6d76cca93acd49474881a772aff150bc0563c08cb7",
+				"dweb:/ipfs/QmexXfPzupoAx9SDTdpcpACEMCajMtd4DxhqfkWdme2kKR"
+			]
+		},
+		"contracts/interface/IMdexPair.sol": {
+			"keccak256": "0x08bde13b73ac8d609e4ff62c765fb140f60beeebb4bef820b34785d336b9f1b4",
+			"urls": [
+				"bzz-raw://6c53b9ddfca7d2876118ee9f999db6970131b9756733820ac0c28a1e1676310b",
+				"dweb:/ipfs/QmNiZCLLEjesTLfvbUNhUdkPPTz8YAHoggimGq93MdhXy8"
+			]
+		},
+		"contracts/library/SafeMath.sol": {
+			"keccak256": "0xb5149b8e45d7f522286cabe8a244dd8fe5c7079d8220841a18e46ed946e0986c",
+			"urls": [
+				"bzz-raw://267598dce0ebd21b5297c6831d0d7898d1d173756081da4fb949f3351c720f93",
+				"dweb:/ipfs/QmZ6a9Gf6oCZB2AxNHWyJNMjZ2pDLZ9shY7G9pWGrA3FnN"
+			]
+		}
+	},
+	"version": 1
+}

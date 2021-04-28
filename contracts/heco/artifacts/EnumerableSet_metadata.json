@@ -1,0 +1,40 @@
+{
+	"compiler": {
+		"version": "0.6.6+commit.6c089d02"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/heco/MDXToken.sol": "EnumerableSet"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/heco/MDXToken.sol": {
+			"keccak256": "0x06ffbe0449eae14c37c141decbc9f43d25a89c5ee9bed3672167e990dffea7df",
+			"urls": [
+				"bzz-raw://af386aaa50b141637dcaa7e399e9b08c18f4327c7c0e69a63cdfa0a3526e52d4",
+				"dweb:/ipfs/QmXku2dnRTpA4z6ZRYhrdR2BgQaYRthukQb4NsHgh76iP2"
+			]
+		}
+	},
+	"version": 1
+}
