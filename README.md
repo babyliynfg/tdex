@@ -1,6 +1,6 @@
-# Tdxsawp Contract
+# MetaTdex Contract
 
-### HecoSwap
+### Heco
 ```
 ```
 ## QuickStart
